@@ -13,6 +13,11 @@ const assertEqual = function(actual, expected) {
     }
 
 };
+const name='sarada'
+console.log(`hello,${name}!`);
+
+const name1 = 'ranjit'
+console.log('hello,' + name1+'!');
 
 console.assert(sum(1,3) === 4)
 
