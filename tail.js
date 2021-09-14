@@ -24,4 +24,6 @@ const tail=function LastElementfromArray(elementarray){
 //assertEqual(words.length, 3); // original array should still have 3 elements!
 
 assertEqual(tail([5,6,7]).length,2);
+assertEqual(tail([5,6,7])[0],6);
 assertEqual(tail(["Hello", "Lighthouse", "Labs"]).length, 3);
+assertEqual(tail(["Hello", "Lighthouse", "Labs"])[1], "Labs");
