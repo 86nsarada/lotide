@@ -1,5 +1,5 @@
 const lodash= require('lodash')
-const assertEqual = require('./test/assertEqualTest');
+const assertArrayEqual = require('./test/assertArrayEqualTest');
 
   const middle = function(array) {
 let newArr = [];
@@ -15,9 +15,9 @@ let newArr = [];
   return newArr;  
 }
 module.exports = middle;
-assertEqual(middle([1])) // => []
-assertEqual(middle([1, 2])) // => []
-assertEqual(middle([1, 2, 3, 4])) // => [2, 3]
-assertEqual(middle([1, 2, 3, 4, 5, 6])) // => [3, 4]
-assertEqual(middle([1, 2, 3])) // => [2]
-assertEqual(middle([1, 2, 3, 4, 5])) // => [3]
+assertArrayEqual(middle([1]),[]) // => []
+assertArrayEqual(middle([1, 2]),[]) // => []
+// assertEqual(middle([1, 2, 3, 4])) // => [2, 3]
+// assertEqual(middle([1, 2, 3, 4, 5, 6])) // => [3, 4]
+// assertEqual(middle([1, 2, 3])) // => [2]
+// assertEqual(middle([1, 2, 3, 4, 5])) // => [3]
