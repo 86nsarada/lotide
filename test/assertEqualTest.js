@@ -1,4 +1,3 @@
-const assertEqual = require('../assertEqual');
 
 const assertEqual = function(actual, expected) {
     if (actual === expected) {
@@ -6,5 +5,5 @@ const assertEqual = function(actual, expected) {
     } else {
     console.log(`🛑🛑🛑 Assertion Failed: ${actual} !== ${expected}`);
     }
-    };
+    }
 module.exports = assertEqual;

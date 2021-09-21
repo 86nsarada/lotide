@@ -1,5 +1,5 @@
 const lodash = require('lodash')
-const assertEqual = require('./assertEqual');
+const assertEqual = require('./test/assertEqualTest');
 
 
 
@@ -11,6 +11,6 @@ const head=function FirstElementfromArray(elementarray){
     }
 }
 
-// assertEqual(head([5,6,7]), 5);
+ assertEqual(head([5,6,7]), 5);
 // assertEqual(head(["Hello", "Lighthouse", "Labs"]), "Hello");
 
