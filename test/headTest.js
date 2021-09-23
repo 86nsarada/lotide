@@ -3,7 +3,7 @@ const head   = require('../headRefractor');
 
 describe("#head", () => {
 
-  it("returns 1 for [1, 2, 3]", () => {
+  it("Function should return 1 for the array passed as  [1, 2, 3]", () => {
     assert.strictEqual(head([1, 2, 3]), 1);
   });
 
